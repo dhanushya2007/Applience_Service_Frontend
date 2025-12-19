@@ -10,7 +10,7 @@ const BookingHistory = () => {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const res = await fetch("http://localhost:9000/api/bookings");
+        const res = await fetch("https://applience-service.onrender.com/api/bookings");
         const data = await res.json();
         setBookings(data.data.bookings);
       } catch (err) {
@@ -22,7 +22,7 @@ const BookingHistory = () => {
 
   const handleDelete = async (id) => {
     try {
-      const res = await fetch(`http://localhost:9000/api/bookings/${id}`, {
+      const res = await fetch(`https://applience-service.onrender.com/api/bookings/${id}`, {
         method: "DELETE",
       });
       if (res.status === 204) {
@@ -45,7 +45,7 @@ const BookingHistory = () => {
 
   const saveEdit = async () => {
     try {
-      const res = await fetch(`http://localhost:9000/api/bookings/${editingId}`, {
+      const res = await fetch(`https://applience-service.onrender.com/api/bookings/${editingId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(editData),
@@ -163,3 +163,4 @@ const BookingHistory = () => {
 };
 
 export default BookingHistory;
+
