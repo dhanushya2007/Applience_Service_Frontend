@@ -1,0 +1,114 @@
+/* PAGE */
+.addAppliancePage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #e0f2fe, #fdf2f8, #f0fdf4);
+}
+
+/* HEADING */
+.addAppliancePage h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #2563eb, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* FORM */
+.addApplianceForm {
+  width: 100%;
+  max-width: 420px;
+  background: linear-gradient(135deg, #ffffff, #f8fafc);
+  padding: 30px;
+  border-radius: 18px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow:
+    0 0 18px rgba(236, 72, 153, 0.35),
+    0 0 30px rgba(59, 130, 246, 0.25);
+}
+
+/* GLITTER BORDER */
+.addApplianceForm::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 20px;
+  background: linear-gradient(
+    120deg,
+    #ec4899,
+    #3b82f6,
+    #22c55e,
+    #ec4899
+  );
+  z-index: -1;
+  filter: blur(14px);
+  opacity: 0.75;
+}
+
+/* LABELS */
+.addApplianceForm label {
+  width: 92%;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: left;
+}
+
+/* INPUTS */
+.addApplianceForm input,
+.addApplianceForm textarea {
+  width: 92%;
+  padding: 11px 14px;
+  margin-bottom: 18px;
+  border-radius: 12px;
+  border: 1.6px solid #c7d2fe;
+  outline: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+/* INPUT FOCUS GLOW */
+.addApplianceForm input:focus,
+.addApplianceForm textarea:focus {
+  border-color: #ec4899;
+  box-shadow: 0 0 10px rgba(236, 72, 153, 0.45);
+}
+
+/* TEXTAREA */
+.addApplianceForm textarea {
+  resize: none;
+  height: 95px;
+}
+
+/* BUTTON */
+.addApplianceForm button {
+  width: 92%;
+  padding: 13px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #ec4899, #db2777);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+/* BUTTON HOVER */
+.addApplianceForm button:hover {
+  background: linear-gradient(135deg, #ec4899, #db2777);
+  box-shadow: 0 0 16px rgba(236, 72, 153, 0.65);
+  transform: translateY(-3px);
+}

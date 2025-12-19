@@ -1,0 +1,69 @@
+/* 1. Simple Page Background */
+.contactPage {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fdf2f8, #fce7f3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* 2. Simple Title */
+.contactHero h1 {
+  font-size: 32px;
+  color: #db2777;
+  margin-bottom: 30px;
+}
+
+/* 3. Simple Box Inputs (Smaller Width) */
+.contactForm {
+  width: 100%;
+  max-width: 400px; /* Small centered width */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #f9a8d4; /* Simple pink box border */
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #db2777; /* Darker pink when clicking */
+  box-shadow: 0 0 5px rgba(219, 39, 119, 0.2);
+}
+
+/* 4. Minimal Pink Button */
+.ctaButton {
+  background: #ec4899;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.ctaButton:hover {
+  background: #db2777;
+}
+
+/* 5. Simple Contact Info */
+.contactInfo {
+  margin-top: 40px;
+  text-align: center;
+  color: #4b5563;
+  font-size: 14px;
+}

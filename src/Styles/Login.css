@@ -1,0 +1,90 @@
+/* 🌸 Page background */
+.login {
+  background: linear-gradient(135deg, #e0f2fe, #fce7f3, #f0fdf4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ✨ Login Form */
+.loginForm {
+  background: linear-gradient(
+    135deg,
+    #fdf2f8,   /* very light pink */
+    #eef2ff    /* soft lavender */
+  );
+  padding: 34px;
+  border-radius: 18px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+
+  box-shadow:
+    0 0 18px rgba(236, 72, 153, 0.35),
+    0 0 32px rgba(99, 102, 241, 0.25);
+}
+
+/* ✨ Subtle glitter border */
+.loginForm::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 20px;
+  background: linear-gradient(
+    120deg,
+    #ec4899,
+    #3b82f6,
+    #22c55e,
+    #ec4899
+  );
+  z-index: -1;
+  filter: blur(10px);
+  opacity: 0.7;
+}
+
+/* Heading */
+.loginForm h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #2563eb, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Inputs */
+.loginForm input {
+  padding: 11px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1.5px solid #c7d2fe;
+  outline: none;
+  transition: 0.3s;
+}
+
+.loginForm input:focus {
+  border-color: #ec4899;
+  box-shadow: 0 0 8px rgba(236, 72, 153, 0.35);
+}
+
+/* 🔘 Button */
+.loginButton {
+  padding: 11px;
+  background: linear-gradient(135deg, #ec4899, #db2777);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.loginButton:hover {
+  background: linear-gradient(135deg, #ec4899, #db2777);
+  box-shadow: 0 0 12px rgba(236, 72, 153, 0.6);
+  transform: translateY(-2px);
+}

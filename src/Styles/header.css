@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 36px;
+  background: #e85396;
+  color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header .logo img {
+  height: 70px;
+  width: auto;
+  border-radius: 20px;
+}
+
+/* Links container */
+.header .links {
+  display: flex;
+  gap: 26px;
+}
+
+/* Links */
+.header .links a {
+  color: #f8fafc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  position: relative;
+  padding-bottom: 4px;
+  transition: 0.3s ease;
+}
+
+/* Hover underline animation */
+.header .links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #facc15; /* Keeps your yellow accent from the Browse button */
+  transition: width 0.3s ease;
+}
+
+.header .links a:hover::after {
+  width: 100%;
+}
+
+/* Hover color */
+.header .links a:hover {
+  color: #facc15;
+}
+
+/* Active link */
+.header .links a.active {
+  color: #fde047;
+}
+
+.header .links a.active::after {
+  width: 100%;
+  background-color: #fde047;
+}
+

@@ -1,0 +1,117 @@
+/* 🌸 Page background */
+.bookingPage {
+  background: linear-gradient(135deg, #e0f2fe, #fce7f3, #f0fdf4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ⭐ Heading */
+.bookingPage h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #2563eb, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+/* 🖼 Appliance Image */
+.applianceImage {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  margin-bottom: 25px;
+}
+
+.applianceImage:hover {
+  transform: scale(1.08);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ✨ Booking Form */
+.bookingForm {
+  width: 100%;
+  max-width: 420px;
+  background: linear-gradient(135deg, #fdf2f8, #eef2ff);
+  padding: 30px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  box-shadow:
+    0 0 18px rgba(236, 72, 153, 0.35),
+    0 0 32px rgba(99, 102, 241, 0.25);
+  overflow: hidden;
+  transition: background 0.5s ease;
+}
+
+/* 🔮 Glitter border effect */
+.bookingForm::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 20px;
+  background: linear-gradient(120deg, #ec4899, #3b82f6, #22c55e, #ec4899);
+  z-index: -1;
+  filter: blur(10px);
+  opacity: 0.7;
+}
+
+/* Form Labels */
+.bookingForm label {
+  font-weight: 600;
+  color: #374151;
+}
+
+/* Inputs, Textarea & Select */
+.bookingForm input,
+.bookingForm textarea,
+.bookingForm select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1.5px solid #c7d2fe;
+  outline: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.bookingForm input:focus,
+.bookingForm textarea:focus,
+.bookingForm select:focus {
+  border-color: #ec4899;
+  box-shadow: 0 0 8px rgba(236, 72, 153, 0.35);
+  background: #fff9f0;
+}
+
+/* Textarea */
+.bookingForm textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Submit Button */
+.bookingForm button {
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #ec4899, #db2777);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bookingForm button:hover {
+  box-shadow: 0 0 12px rgba(236, 72, 153, 0.6);
+  transform: translateY(-2px);
+}

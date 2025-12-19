@@ -1,0 +1,13 @@
+
+[
+  { "id": 1, "name": "AC Service", "price": 500, "image": "https://www.lg.com/content/dam/channel/wcms/in/images/split-ac/gallery/q19ynze1/us-q19ynze1-2010x1334-1/US-Q19YNZE1-2010x1334-1.jpg/jcr:content/renditions/thum-1600x1062.jpeg" },
+  { "id": 2, "name": "Refrigerator Service", "price": 400, "image": "https://whirlpoolindia.vtexassets.com/arquivos/ids/165797-800-auto?v=638705348977430000&width=800&height=auto&aspect=true" },
+  { "id": 3, "name": "Washing Machine Service", "price": 350, "image": "https://sharptronics.in/cdn/shop/products/FHP1208Z9B-Washing-Machines-Front-View-D-01.jpg?v=1664954527" },
+  { "id": 4, "name": "Microwave Oven Service", "price": 300, "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTab4iUFu7yT9Zy2gPRA8pATAq1nOn1svtvLlbfvoQkYGvkAuWXH8IExgEkwdR_qq5dlDsFeh8jHCTAxB40bqhohdQKSWZHVXcOBvO7iZF4nKBvZwP3m7cwBQ" },
+  { "id": 5, "name": "Water Purifier Service", "price": 450, "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT6KQMoQ3QvdUoehV_cyAAbypV0wtW7di5q15mzk14ZEEvOo0u0Axeo4zVKX-leXLZxnWkZr_wW2_Ar9Ir9684g4XtlnarlpA9U_oy-tMdRzd4v2dXjtsU2vBiRnsUJbApcVvmi5a8&usqp=CAc" },
+  { "id": 6, "name": "Geyser Service", "price": 400, "image": "https://m.media-amazon.com/images/I/71SLYJfR3cL._AC_UF894,1000_QL80_.jpg" },
+  { "id": 7, "name": "Dishwasher Service", "price": 500, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTlru9X_u169wYA4EUKi6edOCVTMSqRSyr4w&s" },
+  { "id": 8, "name": "Oven Service", "price": 350, "image": "https://www.lg.com/content/dam/channel/wcms/in/images/microwave-ovens/mc2886brum_dbkqiln_eail_in_c/gallery/MC2886BRUM-Microwave-ovens-Front-view-DZ-01.jpg/jcr:content/renditions/thum-1600x1062.jpeg" },
+  { "id": 9, "name": "Vacuum Cleaner Service", "price": 300, "image": "https://m.media-amazon.com/images/I/81P2NgteuQL._AC_UF350,350_QL80_.jpg" }
+
+]

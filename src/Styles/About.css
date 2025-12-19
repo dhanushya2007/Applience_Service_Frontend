@@ -1,0 +1,56 @@
+/* PAGE */
+.aboutPage {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADING */
+.aboutPage h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #1e3a8a;
+}
+
+/* CARD */
+.aboutCard {
+  width: 100%;
+  max-width: 850px;
+  background-color: white;
+  padding: 22px 26px;
+  border-radius: 14px;
+  margin-bottom: 22px;
+
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  border-left: 6px solid #facc15;
+}
+
+/* CARD TITLE */
+.aboutCard h3 {
+  margin-bottom: 10px;
+  color: #1e40af;
+  font-size: 20px;
+}
+
+/* TEXT */
+.aboutCard p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #374151;
+}
+
+/* LIST */
+.aboutCard ul {
+  padding-left: 20px;
+}
+
+.aboutCard ul li {
+  margin-bottom: 8px;
+  color: #374151;
+  font-size: 15px;
+}
