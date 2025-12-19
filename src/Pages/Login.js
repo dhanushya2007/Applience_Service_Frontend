@@ -12,7 +12,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:9000/api/auth/login", {
+      const res = await axios.post("https://applience-service.onrender.com/api/auth/login", {
         email,
         password,
       });
@@ -59,3 +59,4 @@ const Login = () => {
 };
 
 export default Login;
+
